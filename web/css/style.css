@@ -1,0 +1,400 @@
+/*header*/
+header h5{
+	padding-top: 50%;
+	text-align: center;
+	font-size: 2.2rem;
+	font-family: 'Inria Serif', serif;
+}
+	/*menu-nav*/
+	#main-nav{
+	background-color:#667292;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	}
+	#main-nav ul{	
+	display: flex;
+	flex-wrap: wrap;
+	}
+	#main-nav ul li{
+	width: 50%;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+
+	}
+	#main-nav ul li a{
+	color: #E5E5E5;
+	text-decoration: none;
+	font-size: 2rem;
+	}
+	#main-nav ul li a:hover{
+	color: gray;
+	}
+	#current-pos{
+	background-color: #8d9db6;
+	}
+
+	/*menu-lang*/
+	#second-nav ul li a:hover{
+	color: gray;
+	}
+	#second-nav{
+	display: initial;
+	position: sticky;
+	z-index: 2;
+	}
+	#second-nav ul{
+	width: 100%;
+	background-color: #f1e3dd;
+	display: inline-block; 
+	float: right;
+	}
+	#second-nav ul li{
+	float: right;
+	margin-right: 3rem;
+	}
+	#second-nav ul li a{
+	text-decoration: none;
+	color: black;
+	}
+	
+	/*logo*/
+	header img{
+  	display: block;
+  	width: 80%;
+  	position: absolute;
+  	top:55%;
+  	left: 10%;
+	}
+
+	/*background*/
+	#header-background1{
+	position: relative;
+  	height: 80%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-image: url("../images/BG2.jpg");
+	}
+	#header-background2{
+	position: relative;
+  	height: 40%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-image: url("../images/background.jpg");
+	}
+	#header-background3{
+	position: relative;
+  	height: 30%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-image: url("../images/zaal9.jpg");
+	}
+/*header top tablet max width 765*/
+@media all and (min-width: 40.2rem) 
+{
+	/*header*/
+	header h5{
+	padding-top: 25%;
+	font-size: 2.2rem;
+	}
+		/*menu-nav*/
+		#main-nav ul{
+		text-align: center;
+		}
+		/*menu-lang*/
+		/*logo*/
+		/*background*/
+	
+}
+/*header top pc min width 765*/
+@media all and (min-width: 79.7rem) 
+{
+	/*header*/
+	header h5{
+	color: #154360;
+	padding-top: 10%;
+	font-size: 4rem;
+	}
+	/*menu-nav*/
+	#main-nav ul{
+    flex-wrap: nowrap;
+    }
+    #main-nav ul li{
+	text-align: center;
+	}
+	/*menu-lang*/
+	/*logo*/
+	header img{
+  	display: block;
+  	width: 70%;
+  	position: absolute;
+  	top:40%;
+  	left: 15%;
+	}
+	/*background*/
+    
+}
+
+/*main*/
+main{
+	background-color: white;
+	max-width: 1200px;
+    margin: 0 auto;
+}
+	/*titles*/
+	main h3{
+	color: #154360;
+	font-family: 'Inria Serif', serif;
+	font-size: 2rem;
+	margin-top: 2rem;
+	margin-left: 0.5rem;
+	}
+	main h2{
+	color: #154360;
+	font-size: 3rem;
+	font-family: 'Inria Serif', serif;
+	margin-top: 5rem;
+	text-align: center;
+	}
+	main h5{
+		padding-top: 5rem;
+	}
+	/*paragrafs*/
+	main p{
+	color: #154360;
+	font-size: 1rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	}
+	/*images*/
+	main img{
+	width: 100%;
+	margin-top: 1rem;
+	}
+	/*menu-event*/
+	main section nav{
+	margin-top: 5rem;
+	}
+	main section nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	}
+	main section nav li{
+	width: 49%;
+	text-align: center;
+	}
+	#event_nav1{
+	border-right: solid 2px;
+	}
+	main section nav li a{
+	color: #154360;
+	text-decoration: none;
+	}
+	main section nav li a:hover{
+	color: gray;
+	}
+	/*form*/
+	form input{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1rem;
+
+	}
+	#form-body{
+	height: 5rem;
+	}
+	#form-submit{
+		width: 35%;
+
+	}
+	/*maps*/
+	main iframe{
+	margin-top: 3rem; 
+	width: 100%;
+	height: 20rem;
+	border:0;
+	}
+
+/*main tablet min width 765*/
+@media all and (min-width: 40.2rem) 
+{
+	/*main*/
+	
+		/*titles*/
+		main h3{
+		font-size: 2.2rem;
+		}
+		main h2{
+		margin-top: 30%;
+		}
+		/*paragrafs*/
+		.text-title{
+			text-align: center;
+		}
+		main p{
+		font-size: 1.2rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		}
+		/*menu event*/
+		main section nav{
+		margin-top: 20%;
+		}
+		main section nav li a{
+		font-size: 2rem;
+		}
+		/*images*/
+
+}
+
+/*main pc min width 765*/
+@media all and (min-width: 79.7rem) 
+{
+	/*main*/
+	
+		/*titles*/
+		main h2{
+		margin-top: 18%;
+		}
+		main h3{
+			font-size: 3rem;
+		}
+		/*paragrafs*/
+		main p{
+			font-size: 1.4rem;
+		}
+		/*menu event*/
+
+		/*images*/
+}
+
+/*footer*/
+footer{
+	background-color: #667292;
+	margin-top: 1rem;
+}
+footer h6{
+	padding-top: 1rem;
+	color: white;
+}
+	/*info contact*/
+	footer .footer-content img{
+	width: 1.5rem;
+	margin-left: 0.8rem;
+	}
+	footer .footer-content p{
+	font-family: arial;
+	margin-left: 1rem;
+	font-size: 0.8rem;
+	color: white;
+	}
+	.footer-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-top: 1rem;
+	}
+
+	/*quick links*/
+	footer ul{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	}
+	footer ul li img{
+	width: 2rem;
+	}
+	footer ul li{
+	padding: 0.5rem;
+	}
+	footer aside{
+	display: none;
+	}
+	h4{
+	color: white;
+	}
+
+	/*social*/
+	footer strong{
+	margin-left: 1rem;
+	font-size: 0.8rem;
+	color: white;
+	}
+
+/*footer tablet min width 765*/
+@media all and (min-width: 48rem) 
+{
+	/*footer*/
+		/*info contact*/
+		footer .footer-content p{
+		font-family: arial;
+		margin-left: 1rem;
+		font-size: 1rem;
+		}
+		/*quick links*/
+		/*social*/
+		footer strong{
+		margin-left: 1rem;
+		font-size: 1rem;
+		}
+		footer hr{
+		margin-left: 1rem;
+		margin-right: 1rem;
+		}
+}
+
+/*footer pc min width 765*/
+@media all and (min-width: 60rem) 
+{
+	/*footer*/
+	footer article{
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 1fr;
+	}
+	article{
+		max-width: 1200px;
+        margin: 0 auto;
+	}
+	section{
+		max-width: 1200px;
+        margin: 0 auto;
+	}
+		/*info contact*/
+		/*quick links*/
+		footer article aside{
+		display: initial;
+		margin-left: 50%;
+		}
+		footer article ul{
+		display: inherit;
+		}
+		footer article ul li a{
+		text-decoration: underline;
+		color: #e2e1e1;
+		}
+		footer article ul li a:hover{
+		color: grey;
+		}
+		footer article h4{
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		}
+		/*social*/
+		footer strong{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		}
+		footer hr{
+		margin-left: 5rem;
+		margin-right: 5rem;
+		}	
+}
